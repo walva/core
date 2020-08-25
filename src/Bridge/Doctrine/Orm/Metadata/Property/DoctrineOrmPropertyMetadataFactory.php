@@ -15,8 +15,8 @@ namespace ApiPlatform\Core\Bridge\Doctrine\Orm\Metadata\Property;
 
 use ApiPlatform\Core\Metadata\Property\Factory\PropertyMetadataFactoryInterface;
 use ApiPlatform\Core\Metadata\Property\PropertyMetadata;
-use Symfony\Bridge\Doctrine\ManagerRegistry;
 use Doctrine\ORM\Mapping\ClassMetadataInfo;
+use Symfony\Bridge\Doctrine\ManagerRegistry;
 
 /**
  * Use Doctrine metadata to populate the identifier property.
