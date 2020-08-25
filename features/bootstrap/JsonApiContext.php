@@ -23,7 +23,7 @@ use Behat\Behat\Hook\Scope\BeforeScenarioScope;
 use Behatch\Context\RestContext;
 use Behatch\Json\Json;
 use Behatch\Json\JsonInspector;
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\ORM\EntityManagerInterface;
 use JsonSchema\Validator;
 use PHPUnit\Framework\ExpectationFailedException;
