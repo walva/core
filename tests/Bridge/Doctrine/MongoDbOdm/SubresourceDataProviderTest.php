@@ -26,7 +26,6 @@ use ApiPlatform\Core\Tests\Fixtures\TestBundle\Document\Dummy;
 use ApiPlatform\Core\Tests\Fixtures\TestBundle\Document\RelatedDummy;
 use ApiPlatform\Core\Tests\Fixtures\TestBundle\Document\RelatedOwningDummy;
 use ApiPlatform\Core\Tests\Fixtures\TestBundle\Document\ThirdLevel;
-use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\Common\Persistence\ObjectRepository;
 use Doctrine\ODM\MongoDB\Aggregation\Builder;
 use Doctrine\ODM\MongoDB\Aggregation\Stage\Lookup;
@@ -35,6 +34,7 @@ use Doctrine\ODM\MongoDB\DocumentManager;
 use Doctrine\ODM\MongoDB\Iterator\Iterator;
 use Doctrine\ODM\MongoDB\Mapping\ClassMetadata;
 use Doctrine\ODM\MongoDB\Repository\DocumentRepository;
+use Doctrine\Persistence\ManagerRegistry;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 
